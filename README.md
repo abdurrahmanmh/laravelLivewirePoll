@@ -7,6 +7,36 @@
 <a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
 </p>
 
+
+## About Project
+
+Just learning
+
+how to run?
+have docker
+install node js, composer(use docker-compose.yml in l11 task list repo), php(enable zip, pdo extension)
+
+follow laravel documentation installation
+
+use docker for mysql
+
+
+## Command Line I use
+
+```bash
+composer require livewire/livewire
+php artisan migrate:refresh --seed
+php artisan make:livewire Polls
+
+```
+## Screenshot
+
+![Homepage](Screenshots/1.png)
+
+
+
+
+
 ## About Laravel
 
 Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
