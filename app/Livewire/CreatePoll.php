@@ -10,6 +10,7 @@ class CreatePoll extends Component
 {
     #[Validate]
     public $title;
+    
     #[Validate]
     public $options = ['First'];
 
